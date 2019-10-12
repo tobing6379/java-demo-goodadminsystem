@@ -51,7 +51,7 @@
 
 + 流程图
 
-  ![1570844735960](C:\Users\Tobing\AppData\Roaming\Typora\typora-user-images\1570844735960.png)
+  ![1570844735960](assets\1570844735960.png)
 
 ### 4. 程序实现
 
@@ -108,7 +108,7 @@
 
 + 项目目录框架
 
-  ![1570848487712](D:\Users\Tobing\OneDrive - leverage innovative users\桌面\总结文档\Java复习\assets\1570848487712.png)
+  ![1570848487712](assets\1570848487712.png)
 
 + 测试Mysql的连接情况
 
@@ -771,7 +771,7 @@
 
 + 项目实际框架
 
-  ![1570884396730](D:\Users\Tobing\OneDrive - leverage innovative users\桌面\总结文档\Java复习\assets\1570884396730.png)
+  ![1570884396730](assets\1570884396730.png)
 
 ##### 4. 项目效果
 
