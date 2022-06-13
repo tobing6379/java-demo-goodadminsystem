@@ -1,8 +1,9 @@
 /*
-SQLyog Ultimate v12.09 (64 bit)
-MySQL - 5.5.40 : Database - test
+SQLyog Professional v12.09 (64 bit)
+MySQL - 5.7.18-log : Database - test
 *********************************************************************
-*/
+*/
+
 
 /*!40101 SET NAMES utf8 */;
 
@@ -17,8 +18,6 @@ CREATE DATABASE /*!32312 IF NOT EXISTS*/`test` /*!40100 DEFAULT CHARACTER SET ut
 USE `test`;
 
 /*Table structure for table `good` */
-
-DROP TABLE IF EXISTS `good`;
 
 CREATE TABLE `good` (
   `gid` int(11) NOT NULL AUTO_INCREMENT,
@@ -37,17 +36,19 @@ CREATE TABLE `good` (
 
 /*Table structure for table `user` */
 
-DROP TABLE IF EXISTS `user`;
-
 CREATE TABLE `user` (
   `id` int(11) NOT NULL,
   `username` varchar(20) NOT NULL,
   `password` varchar(20) NOT NULL,
   `name` varchar(20) NOT NULL,
+  `isadmin` tinyint(12) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 /*Data for the table `user` */
+
+insert  into `user`(`id`,`username`,`password`,`name`,`isadmin`) values (0,'admin','root','admin',1);
+insert  into `user`(`id`,`username`,`password`,`name`,`isadmin`) values (1,'saler','root','saler',0);
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
